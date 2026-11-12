@@ -2,7 +2,7 @@ defmodule Direct.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @description "Play a video release in the browser without re-encoding it: ffmpeg copies the video (H.264, HEVC, AV1 — whatever the browser decodes) into a fragmented MP4 that plays while it is written, with the audio as AAC, several audio tracks as HLS renditions, and conversions begun part-way through the film that keep its clock."
+  @description "Play a video release in the browser without re-encoding: ffmpeg copies the video into a fragmented MP4 that plays while it is written, audio as AAC, audio tracks as HLS renditions, parts begun mid-film."
   @source_url "https://github.com/alexdont/direct_stream"
 
   def project do
